@@ -18,8 +18,10 @@ fastAPI를 이용한 붓꽃분류시스템, 영화추천시스템 / 2024 3-1 캡
 
 
 # 붓꽃분류 시스템
-
-![image](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/f2c592e5-467d-4e12-a325-7713cb419b4a)
+### 1. 
+### 결과물
+![image](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5ae541ca-338e-4b70-a22c-01304796af0c)
+최종적으로 위와 같이 각각의 값들을 입력한 후 '붓꽃 종류 예측하기' 버튼을 클릭하면 각각 붓꽃들의 예측 값을 알려주고 파이차트를 통해 효과적으로 시각화하여 표현하는 사이트를 제작하였다
 
 
 <details>

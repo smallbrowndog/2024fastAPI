@@ -18,7 +18,12 @@ fastAPI를 이용한 붓꽃분류시스템, 영화추천시스템 / 2024 3-1 캡
 
 
 ## 붓꽃분류 시스템
-개발환경
+
+![image](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/f2c592e5-467d-4e12-a325-7713cb419b4a)
+
+
+<details>
+<summary>개발환경</summary>
 
 annotated-types==0.6.0  
 anyio==4.3.0  
@@ -44,11 +49,28 @@ threadpoolctl==3.3.0
 typing_extensions==4.10.0  
 tzdata==2024.1  
 uvicorn==0.27.1  
+</details>
+
 
 
 
 ## 영화추천시스템
-개발환경
+
+![최초 랜덤 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/974420eb-e1c3-461b-9e03-7e3568107eb3)
+
+![마우스 호버시 사진 변경](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5d608637-e54c-4f4d-945f-c983636a4897)
+
+![장르 선택 기능](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/cb61a623-c217-4f8f-b9f4-1c41b8da1e90)
+
+![장르 선택시 바뀐 화면](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/bb216054-a665-4a78-9641-0b3a14744b51)
+
+![영화 기반 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/e9558425-ae24-4d61-b680-8cded9263a73)
+
+![사용자 기반 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/2cb18cea-1f1b-42f4-adcb-1fef88e5b50f)
+
+
+<details>
+<summary>개발환경</summary>
 
 annotated-types==0.6.0  
 anyio==4.3.0  
@@ -79,15 +101,6 @@ typing_extensions==4.10.0
 tzdata==2024.1  
 urllib3==2.2.1  
 uvicorn==0.28.1  
+</details>
 
-![최초 랜덤 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/974420eb-e1c3-461b-9e03-7e3568107eb3)
 
-![마우스 호버시 사진 변경](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5d608637-e54c-4f4d-945f-c983636a4897)
-
-![장르 선택 기능](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/cb61a623-c217-4f8f-b9f4-1c41b8da1e90)
-
-![장르 선택시 바뀐 화면](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/bb216054-a665-4a78-9641-0b3a14744b51)
-
-![영화 기반 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/e9558425-ae24-4d61-b680-8cded9263a73)
-
-![사용자 기반 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/2cb18cea-1f1b-42f4-adcb-1fef88e5b50f)

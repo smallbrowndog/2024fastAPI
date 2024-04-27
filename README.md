@@ -17,7 +17,7 @@ fastAPI를 이용한 붓꽃분류시스템, 영화추천시스템 / 2024 3-1 캡
 </div>
 
 
-## 붓꽃분류 시스템
+# 붓꽃분류 시스템
 
 ![image](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/f2c592e5-467d-4e12-a325-7713cb419b4a)
 
@@ -54,7 +54,7 @@ uvicorn==0.27.1
 
 
 
-## 영화추천시스템
+# 영화추천시스템
 
 ![최초 랜덤 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/974420eb-e1c3-461b-9e03-7e3568107eb3)
 

@@ -17,10 +17,10 @@ fastAPI를 이용한 붓꽃분류시스템, 영화추천시스템 / 2024 3-1 캡
 </div>
 
 
-# 붓꽃분류 시스템
-### 1. 
+# 붓꽃분류 시스템 
 ### 결과물
-![image](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5ae541ca-338e-4b70-a22c-01304796af0c)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5ae541ca-338e-4b70-a22c-01304796af0c" width="600" height="300"/>
+
 최종적으로 위와 같이 각각의 값들을 입력한 후 '붓꽃 종류 예측하기' 버튼을 클릭하면 각각 붓꽃들의 예측 값을 알려주고 파이차트를 통해 효과적으로 시각화하여 표현하는 사이트를 제작하였다
 
 
@@ -58,33 +58,43 @@ uvicorn==0.27.1
 
 # 영화추천시스템
 
-![최초 랜덤 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/974420eb-e1c3-461b-9e03-7e3568107eb3)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/974420eb-e1c3-461b-9e03-7e3568107eb3" width="700" height="350"/>
+
+
 위 사진은 사이트에 최초 접속하였을때의 화면이다.
 사용자가 어떤 영화를 좋아할 지 모르기에 랜덤한 영화 10가지를 보여주도록 설정해두었다.
 
 ---
 
-![마우스 호버시 사진 변경](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5d608637-e54c-4f4d-945f-c983636a4897)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/5d608637-e54c-4f4d-945f-c983636a4897" width="700" height="350"/>
+
 위 사이트는 포스터를 클릭하면 imdb의 사이트로 이동하게 된다.
 포스터를 클릭 할 수 있다는 것을 알려주기 위해 상호작용을 추가하여 마우스를 포스터위에 올렸을때 마우스의 모양을 변화시키고 포스터의 밝기를 높여 클릭이 가능하다는것을 표현했다.
 
 ---
 
-![장르 선택 기능](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/cb61a623-c217-4f8f-b9f4-1c41b8da1e90)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/cb61a623-c217-4f8f-b9f4-1c41b8da1e90" width="700" height="350"/>
+
 imdb에서 제공하는 장르들을 모두 기입하여 원하는 장르의 영화 10가지를 추천 받을 수 있도록 기능을 구현하였다.
 
 ---
 
-![장르 선택시 바뀐 화면](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/bb216054-a665-4a78-9641-0b3a14744b51)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/bb216054-a665-4a78-9641-0b3a14744b51" width="700" height="350"/>
+
 위 기능에서 장르를 선택하면 사진과 같이 장르 추천 영화 10가지가 출력된다.
 
 ---
 
-![영화 기반 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/e9558425-ae24-4d61-b680-8cded9263a73)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/e9558425-ae24-4d61-b680-8cded9263a73" width="700" height="350"/>
+
+영화 id를 기입하면 해당 영화에 기반한 영화 10가지를 출력해준다.
 
 ---
 
-![사용자 기반 추천](https://github.com/smallbrowndog/2024fastAPI/assets/136410944/2cb18cea-1f1b-42f4-adcb-1fef88e5b50f)
+<img src="https://github.com/smallbrowndog/2024fastAPI/assets/136410944/2cb18cea-1f1b-42f4-adcb-1fef88e5b50f" width="700" height="350"/>
+
+영화 id와 해당 영화의 평점을 위 형식으로 기입하면 해당 영화와 평점에 기반한 영화 10가지를 출력해준다.
+해당 기능은 정확히 동작하지 않아 보완이 필요할 것 같다.
 
 ---
 
